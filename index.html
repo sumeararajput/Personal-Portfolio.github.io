@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <link rel="icon" href="profile2.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- icon -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<title>Personal Portfolio</title>
+</head>
+<body>
+	<!-- header design -->
+	<header class="header">
+		<a href="#" class="logo">    Sumeara Rajput	</a>
+		<i class='bx bx-sun' id="menu-moon" onclick="dark(this)"></i>
+
+		<i class='bx bx-menu' id="menu-icon"></i>
+
+		<nav class="navbar">
+			<a href="#home" class="active">Home</a>
+			<a href="#about">About</a>
+			<a href="#portfolio">Portfolio</a>
+			<a href="#service">Services</a>
+			<a href="#contact">Contact</a>
+		</nav>
+		<i class='bx bx-sun' id="moon" onclick="dark(this)"></i>
+
+	</header>
+
+	<!-- Section design  -->
+	<section class="home" id="home">
+		<div class="home-content">
+			<h3>Hello, It's Me</h3>
+			<!-- <h1>&#120069;&#120098;&#120001;&#119995;&#120094;&#120110;&#120114;&#120102;&#120111; &#119964;&#119993;&#120102;&#120001;</h1> -->
+			<h1>Sumeara Rajput</h1>
+			<h3>And I'm a <span class="multiple-text">Web Developer</span></h3>
+			<p>Welcome to my responsive web development hub-where technology meets passions  & ideas<br> come to life and i'm excited to share my web creations with you <br>Explore and enjoy !</p>
+			<p>&#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031; &#10031;  </p>
+
+			<div class="sociale-media">
+				<!-- <a href="https://youtube.com/@belfaquiradil?sub_confirmation=1" target="_blank"><i class='bx bxl-youtube' ></i></a> -->
+				<!-- <a href="https://www.instagram.com/belfaquir_adil" target="_blank"><i class='bx bxl-instagram-alt' ></i></a> -->
+				 <a href="https://www.linkedin.com/in/sumeara-abdulrazzak-655033309?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzJiEk%2FAGRlm4I9eUK9xjLg%3D%3D" target="_blank"><i class='bx bxl-linkedin' ></i></a> 
+
+				<a href="https://www.facebook.com/profile.php?id=100093050772377&mibextid=ZbWKwL" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+			</div>
+
+			<a href="cv.jpg" class="btn" target="_blank" class="btn">Download CV</a>
+			<!-- <button  id="downloadButton" class="btn">Download CV</button > -->
+		</div>
+		<div class="home-img">
+			<img id="image-home" src="profile.jpg" alt="profile">
+		</div>
+	</section>
+
+	<!-- about design  -->
+	<section class="about" id="about">
+    
+			<div class="row">
+				<div class="about-col-1">
+					<img id="image-about" src="profile2.jpg" alt="profile">
+				</div>
+				<div class="about-col-2">
+					<h2 class="heading">About <span>Me</span></h2>
+					<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi non ex reprehenderit ipsum suscipit inventore, aspernatur excepturi consectetur eius voluptas!</p> -->
+				 <div class="content-about">
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('education')">&#128394; Education</p>
+						<p class="tab-links" onclick="opentab('skills')">&#127894; Skills</p>
+						<p class="tab-links" onclick="opentab('langues')">&#128483; Langues</p>
+						<p class="tab-links" onclick="opentab('competences')">&#9823; Personal qualities</p>
+					</div>
+					<div class="tab-contents active-contents" id="education">
+						
+						<ul>
+							<li> <span> &spades; 2017 - 2018</span><br><c>ae</c> <h1>Graduation</h1><br>Bachloer's in Commerece <br><p>University of Karachi</p></li>
+							<br>
+							<br>
+							<li><span>&spades; 2015 - 2016</span><br><c>ae</c><h1>Intermediate</h1><br>Government College of Commerce & Economics </li>
+							<br>
+							<br>
+							<li><span>&spades; 2012 - 2013</span><br><c>ae</c><h1>Matrication                  </h1><br>Raunaq-e-Islam girls secondary school</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="skills">
+						<div class="skills">
+							<ul>
+								<li>
+									<span class="text">HTML </span>
+									<span class="percent">
+										<div style="width: 87%;"></div>
+										<span style="left: 85%;"><p>87%</p></span>
+									</span>
+								</li>
+								<li>
+									<span class="text">CSS</span>
+									<span class="percent">
+										<div style="width: 75%;"></div>
+										<span style="left: 70%;"><p>75%</p></span>
+									</span>
+								</li>
+								
+								<li>
+									<span class="text">Bootstrap</span>
+									<span class="percent">
+										<div style="width: 85%;"></div>
+										<span style="left: 80%;"><p>85%</p></span>
+									</span>
+								</li>
+								<li>
+									<span class="text">Js</span>
+									<span class="percent">
+										<div style="width: 55%;"></div>
+										<span style="left: 53%;"><p>55%</p></span>
+									</span>
+								</li>
+							    <li>
+									<span class="text">React js</span>
+									<span class="percent">
+										<div style="width: 60%;"></div>
+										<span style="left: 58%;"><p>60%</p></span>
+									</span>
+								</li>
+								<li>
+									<span class="text">Capcut</span>
+									<span class="percent">
+										<div style="width: 55%;"></div>
+										<span style="left: 53%;"><p>55%</p></span>
+									</span>
+								</li>
+						
+							</ul>
+						</div>
+					</div>
+					<div class="tab-contents" id="langues">
+						<div class="language">
+							<ul>
+								<li>
+									<span class="text">Urdu</span>
+									<span class="percent">
+										<div style="width: 95%;"></div>
+										<span style="left: 90%;"><p>A1</p></span>
+									</span>
+								</li>
+								<li>
+									<span class="text">English</span>
+									<span class="percent">
+										<div style="width: 85%;"></div>
+										<span style="left: 84%;"><p>B2</p></span>
+									</span>
+								</li>
+								<li>
+									<span class="text">Punjabi</span>
+									<span class="percent">
+										<div style="width: 75%;"></div>
+										<span style="left: 70%;"><p>B1</p></span>
+									</span>
+								</li>
+								<li>
+									<span class="text">Memoni</span>
+									<span class="percent">
+										<div style="width: 75%;"></div>
+										<span style="left: 70%;"><p>B1</p></span>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="tab-contents" id="competences">
+						<ul >  
+							<li>Passion</li>
+							<li>Creativity</li>
+							<li>Honesty</li>
+							<li>Flexibility</li>
+							<li> Patience</li>
+							<li>Initiative</li>
+							<li>Overly Helpful</li>
+							<li>Attention to detail</li>
+							<li>Quick Learning</li>
+							<li>Problem Solving</li>
+							<li>Team spirit</li>
+						  </ul>
+					</div> 
+				 </div>
+				</div>
+			</div>
+		
+	</section>
+
+
+	<!-- Portfolio Desighn  -->
+	<section class="portfolio" id="portfolio">
+		<h2 class="heading">Latest <span>Project</span></h2>
+		<div class="portfolio-container">
+			<div class="portfolio-box">
+				<img src="projet1.jpg" alt="">
+				<!-- <div class="portfolio-layer">
+					<h4>Wydad Website</h4>
+					<a href="https://youtu.be/L2PCc73vu2U" target="_blank"><i class="bx bx-link-external"> </i><c>a</c> WAC.com</a>
+				</div> -->
+			</div>
+			<div class="portfolio-box">
+				<img src="blog-3.jpg" alt="">
+				<!-- <div class="portfolio-layer">
+					<h4>QUIZ Website</h4>
+					<a href="https://youtu.be/L2PCc73vu2U" target="_blank"><i class="bx bx-link-external"> </i><c>a</c> Devquiz.com</a>
+				</div> -->
+			</div>
+			<div class="portfolio-box">
+				<img src="blog-4.jpg" alt="">
+				<!-- <div class="portfolio-layer">
+					<h4>Sports Website</h4>
+					<a href="https://youtu.be/r-4DGufrcNk" target="_blank"><i class="bx bx-link-external"></i><c>a</c> Sports.com</a>
+				</div> -->
+			</div>
+			<div class="portfolio-box">
+				<img src="blog-1.jpg" alt="">
+				<!-- <div class="portfolio-layer">
+					<h4>Personel Portfolio</h4>
+					<a href="https://youtu.be/r-4DGufrcNk" target="_blank"><i class="bx bx-link-external"></i><c>a</c> Portfolio.com</a>
+				</div> -->
+			</div>
+			<div class="portfolio-box">
+				<img src="project-5.jpg" alt="">
+				<!-- <div class="portfolio-layer">
+					<h4>Personel Portfolio</h4>
+					<a href="https://youtu.be/r-4DGufrcNk" target="_blank"><i class="bx bx-link-external"></i><c>a</c> Portfolio.com</a>
+				</div> -->
+			</div>
+			<div class="portfolio-box">
+				<img src="project-6.jpg" alt="">
+				<!-- <div class="portfolio-layer">
+					<h4>Personel Portfolio</h4>
+					<a href="https://youtu.be/r-4DGufrcNk" target="_blank"><i class="bx bx-link-external"></i><c>a</c> Portfolio.com</a>
+				</div> -->
+			</div>
+			
+		</div>
+	</section>
+
+
+	<!-- Services desighn  -->
+	<section class="service" id="service">
+		<h2 class="heading">Our <span>Services</span></h2>
+		<div class="services-container">
+			<div class="services-box">
+				<i class="bx bx-code-alt"></i>
+				<h3>Web Development</h3>
+				<span><h1>start from 40$</h1></span>
+				<p>I specialize in creating responsive and user-friendly websites that combine aesthetic design with seamless functionality.<br> With a passion for clean code and a focus on user experience,<br> I strive to deliver compelling digital solutions tailored to meet your unique business needs.</p>
+				<a href="#service" class="btn">Read More</a>
+			</div>
+			<div class="services-box">
+				<i class="bx bx-bar-chart-alt"></i>
+				<h3>Social Media Marketing</h3>
+				<span><h1>start from 30$</h1></span>
+				<p>I am social media marketer specializes in crafting compelling content, managing campaigns, and analyzing metrics to maximize brand visibility and engagement online. They leverage platforms like Facebook, Instagram, and LinkedIn to create impactful strategies that resonate with specific audience demographics.</p>
+				<a href="#service" class="btn">Read More</a>
+			</div>
+			<div class="services-box">
+				<i class="bx bx-code-alt"></i>
+				<h3>Web Design</h3>
+				<span><h1>start from 35$</h1></span>
+				<p>As a web designer, I specialize in creating intuitive interfaces and visually appealing websites that enhance user experience and align with client objectives. I combine creativity with technical expertise to craft responsive designs that captivate audiences and drive conversions effectively.</p>
+				<a href="#service" class="btn">Read More</a>
+			</div>
+			 <!-- <div class="services-box">
+				<i class="bx bxs-paint"></i>
+				<h3>Graphic Desighn</h3>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam repellendus voluptatum eveniet esse, commodi sed? Rem vero consequatur quo culpa!</p>
+				<a href="#service" class="btn">Read More</a>
+			</div> -->
+		
+			
+		</div>
+	</section>
+
+
+	<!-- Contact Desighn  -->
+	<section class="contact" id="contact">
+		<h2 class="heading">Contact <span>Me</span></h2>
+		<form action="#">
+			<div class="input-box">
+				<input type="text" placeholder="Full Name">
+				<input type="email" placeholder="Email Adress">
+			</div>
+			<div class="input-box">
+				<input type="tel" placeholder="Mobile">
+				<input type="text" placeholder="Email Subject">
+			</div>
+			<textarea  cols="30" rows="10" placeholder="Your Message"></textarea>
+			<input type="submit" value="Send Message" class="btn">
+		</form>
+	</section>
+
+	<!-- Footer design  -->
+	<footer class="footer">
+		<div class="footer-text">
+			<p>Copyright &copy; 2024 All Right Reserved | This template is made with<br><br>by pure Html CSS & JS </p>
+		</div>
+		 <div class="footer-iconTop">
+			<a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+		</div> 
+	</footer>
+
+	<!-- scrollreveal -->
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!-- taped text  -->
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+	<!-- script -->
+	<script src="js/por.js"></script>
+</body>
+</html>
